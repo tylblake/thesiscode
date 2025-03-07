@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outfit Wizard</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Find the Perfect Outfit</h1>
+    <form id="outfit-form" action="/recommend" method="post">
+        <label for="occasion">Choose an occasion:</label>
+        <select name="occasion" id="occasion">
+            <option value="casual">Casual</option>
+            <option value="formal">Formal</option>
+            <option value="business">Business</option>
+            <option value="party">Party</option>
+        </select>
+
+        <label for="weather">Select weather:</label>
+        <select name="weather" id="weather">
+            <option value="hot">Hot</option>
+            <option value="cold">Cold</option>
+            <option value="rainy">Rainy</option>
+            <option value="mild">Mild</option>
+        </select>
+
+        <label for="size">Size:</label>
+        <select id="size" name="size">
+            <option value="small">Small</option>
+            <option value="medium">Medium</option>
+            <option value="large">Large</option>
+            <option value="extra-large">Extra Large</option>
+        </select>
+
+        <label for="style">Your preferred style:</label>
+        <input type="text" id="style" name="style" placeholder="e.g., Elegant, Sporty, Chic">
+
+        <button type="submit">Get Recommendation</button>
+    </form>
+    <div id="outfit-suggestion"></div>
+    <script src="index.js"></script>
+    <footer>
+        <p>&copy; 2025 Outfit Wizard | All rights reserved</p>
+        <p>Designed with confidence and style.</p>
+    </footer>
+</body>
+</html>
