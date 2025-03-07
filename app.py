@@ -6,15 +6,15 @@ def get_outfit(occasion, weather, preferences, size):
     outfit_suggestions = {
         "work": {
             "sunny": {"formal": "Blazer with dress shirt", "casual": "Button-down shirt", "comfortable": "Polo shirt"},
-            "rainy": {"formal": "Waterproof suit", "casual": "Sweater and jeans", "comfortable": "Hoodie and joggers"},
-            "cold": {"formal": "Wool suit", "casual": "Jacket and chinos", "comfortable": "Sweater and thermal pants"},
+            "rainy": {"formal": "raincoat", "casual": "Sweater and dress pants", "comfortable": "Hoodie and jeans"},
+            "cold": {"formal": "Wool coat", "casual": "Jacket and chinos", "comfortable": "Sweater and thermal pants"},
         },
         "casual": {
-            "sunny": {"formal": "Dress shirt and chinos", "casual": "T-shirt and jeans", "comfortable": "Shorts and sneakers"},
+            "sunny": {"formal": "Dress shirt and chinos", "casual": "Polo shirt and jeans", "comfortable": "Shorts and sneakers"},
             "rainy": {"formal": "Trench coat with dress shoes", "casual": "Denim jacket and sneakers", "comfortable": "Waterproof hoodie"},
             "cold": {"formal": "Long coat with scarf", "casual": "Sweater and jeans", "comfortable": "Thermal hoodie"},
         },
-        "party": {
+        " formal party": {
             "sunny": {"formal": "Slim-fit suit", "casual": "Fitted shirt and jeans", "comfortable": "Loose shirt and sneakers"},
             "rainy": {"formal": "Stylish coat with boots", "casual": "Leather jacket and jeans", "comfortable": "Warm hoodie"},
             "cold": {"formal": "Velvet blazer with pants", "casual": "Knitted sweater and chinos", "comfortable": "Puffer jacket"},
